@@ -1,0 +1,16 @@
+C Plus Plus
+------------------
+-> Object Oriented programming language
+    -> class
+    -> Object
+    -> Encapulation
+    -> Inheritance
+    -> Polymorphism
+----------------------------------
+1. class
+----------
+    -> main function  -> main is outside of class
+    -> Ojects -> memory issues
+    -> friend functions
+    -> Multiple Inheritance is allowed
+    -> Pointers are allowed -> Direct meory operations issue
