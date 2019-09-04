@@ -1,0 +1,5 @@
+First Program
+----------------
+1. A java program shoud have atlest one line of code. 
+2. You can compile any .java files. 
+3. You can run only .class files which is having main method

@@ -1,0 +1,38 @@
+Java data types
+------------------
+1. Primitive data types
+2. Objects / referenced data types
+
+1. Primitive data types             Wraper Classes
+-------------------------- --------------------------    
+    -> int      : 4 Bytes           Integer
+    -> long     : 8 Bytes           Long
+    -> short    : 2 Bytes           Short
+    -> byte     : 1 Byte            Byte
+
+    -> float    : 4 Bytes           Float
+    -> double   : 8 Bytes           Double
+
+    -> char     : 2 Bytes           Character
+    -> boolean  : 1 byte            Boolean
+
+------------------------------------------
+
+
+1 chracter -> 1 bit
+8 bits     -> 1 byte
+1024 bytes -> 1 KB
+
+-------------------------
+Note: If any variable or object defined or created in a method, then
+      that is calle local variable / object to that method. i.e. 
+     accessing scope of those variables are only with that defined
+     method.
+     -> Every local variable must be initialized before uisng it for 
+        assignment operations or any other
+-------------------------------------------------
+
+
+
+
+

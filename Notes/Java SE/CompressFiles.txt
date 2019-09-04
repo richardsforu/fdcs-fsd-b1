@@ -1,0 +1,5 @@
+1. jar (pack only class files)
+2. war (pack of classes and web components)
+3. ear (pack pf classes, web components and destrubuted)
+
+----------------------------------------------------------

@@ -1,0 +1,18 @@
+java naming convensions
+-------------------------
+1. class: Every class in java should starts with upper case letter.
+          If there are more than one word in the class name, then
+          each word first letter shoud be capitalized.
+          Ex: Employee ,ContractEmployee, DataInputStream
+2. method/variable/object : every method in java should starts with
+    lower case letter. If there are more than one word in a method name
+    then each word first letter shoudl be capitalized.
+    Ex: fun, display , processSalary, displayEmployeeData .. etc
+
+3. keywords/packages : every keyword and package name should be in
+    lower case letters
+    Ex: class, if, for , int , mypack, 
+
+4. const : All const names should be in ipper case letter
+            Ex: MAX_VALUE, MAX_AGE, FONT_SIZE .. etc
+
