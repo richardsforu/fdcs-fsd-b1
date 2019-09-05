@@ -1,0 +1,6 @@
+Looping Statements in java
+-----------------------------
+1. for Loop
+2. while
+3. do-while
+4. for each -> works only with arrays
