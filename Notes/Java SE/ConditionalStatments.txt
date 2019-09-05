@@ -21,6 +21,14 @@ Note:
     help of logical operators only 
    ex: && (all the conditions must be true)
        || (any of formed condition should be true) 
-       
 
 
+switch
+---------
+-> It switches the given value, and checks with each and evrry case 
+   in the switched block. if any case is matched, then corrosponding 
+   case statements get executed. If no case is matching, then 
+  statements under 'default' is executed. 
+
+  Note: break is used to termenate the condition block.
+  
