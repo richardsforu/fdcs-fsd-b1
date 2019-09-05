@@ -1,0 +1,26 @@
+Conditional Statements (control statements)
+-------------------------
+1. if
+2. if else
+3. nested if
+4. switch
+
+Note: All the Conditional Statements in java executed if given
+      condition is true. and it returns boolean value (true / false)
+
+1. if
+-------
+-> If the given condition is true, then statements under if block
+   get executed
+-> if the given condition is false, then statements under else 
+   block get executed
+Note: 
+ 1. You must use only relational operators in condition
+    ex: == , != , > ,< , >= ,<=
+ 2. multiple conditions can be formed in the if condition with the
+    help of logical operators only 
+   ex: && (all the conditions must be true)
+       || (any of formed condition should be true) 
+       
+
+
