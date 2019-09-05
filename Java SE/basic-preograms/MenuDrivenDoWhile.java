@@ -1,9 +1,10 @@
-class MenuDrivenDemo{    
+class MenuDrivenDoWhile{    
     public static void main(String args[]){
 
    java.util.Scanner sc=new java.util.Scanner(System.in);
-     while(true){
-         System.out.println("Menu");
+     boolean choice=true;
+     do{
+         System.out.println("Menu-Dowhile");
          System.out.println("-------------");
          System.out.println("1.Save");
          System.out.println("2.List All");
@@ -32,12 +33,13 @@ class MenuDrivenDemo{
              break;
              case 6:
              System.out.println("Thank you. Visit again");
-             System.exit(1);
+             choice=false;
+             break;
              default:
              System.out.println("Invalid Choice. try again: ");
 
          } // end ofswitch
-     } // end of while
+     }while(choice); // end of while
 
     } // end of main method
 }
