@@ -1,0 +1,35 @@
+OPPS
+------
+1. class
+2. Object
+3. Encapulation
+4. Inheritance
+5. Abstraction
+6. Polymorphism
+
+--------------------------------
+
+1. class
+----------
+-> class is a group name. it contains methods, constructors,
+   properties.
+
+
+Class Notes
+--------------
+1.static data can be accessed directly from the stastic and non static
+   methods of the same class.
+2. non static data can be accessed directly from non static methods
+   of the same class
+3. non static data  can not be accessed from the static methods
+   directly. we required object to access non static data  from the 
+   static method of the same class or different class
+4. non static data of other classes can not be accessed directly 
+   to the non sttaic method/static method of the same class. 
+   
+
+--------------------------------------------------------
+
+
+
+    
