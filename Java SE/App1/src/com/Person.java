@@ -7,6 +7,8 @@ public class Person {
 	String personName;
 	
 	static void f2() { // static method
+		
+	
 		// accepts directly only static data from the same class
 		// accepts static data of other classe with help of other class names
 		country="UK";
@@ -19,6 +21,7 @@ public class Person {
 	}
 	
 	void f1() { // non static 
+		
 		country="USA";
 		Employee.companyName="TCS";
 		personId=100;
