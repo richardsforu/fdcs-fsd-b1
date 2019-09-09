@@ -841,3 +841,90 @@ Caused by: java.lang.NullPointerException
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
 	... 61 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:45:03.981
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zcqbccGK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:45:03.981
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.zcqbccGK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:45:03.987
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:45:03.987
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zcqbccGK => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.371
+!MESSAGE Boot LS startup time from start to initialized: 1325ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.387
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.eBZcyzCZisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.388
+!MESSAGE subscribing to classpath changes: sts4.classpath.eBZcyzCZ isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.388
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.388
+!MESSAGE subsribers = {sts4.classpath.eBZcyzCZ=Send Classpath Notifications(1670)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.388
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.389
+!MESSAGE project App3 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.389
+!MESSAGE project App1 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.389
+!MESSAGE Preparing classpath changed notification App3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.390
+!MESSAGE project App2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.390
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.390
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.390
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.eBZcyzCZ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.390
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.391
+!MESSAGE buffering callback sts4.classpath.eBZcyzCZ App3 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.391
+!MESSAGE Preparing classpath changed notification App1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.391
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.392
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.392
+!MESSAGE buffering callback sts4.classpath.eBZcyzCZ App1 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.393
+!MESSAGE Preparing classpath changed notification App2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.393
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.393
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.393
+!MESSAGE buffering callback sts4.classpath.eBZcyzCZ App2 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.394
+!MESSAGE executing callback sts4.classpath.eBZcyzCZ 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-09 11:46:12.408
+!MESSAGE executing callback sts4.classpath.eBZcyzCZ SUCCESS [done]
