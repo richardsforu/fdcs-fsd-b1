@@ -1,8 +1,10 @@
 package com;
 
 public class Notes {
+	
+	
 	/*
-	 * 	Encapulation
+	 * 	Encapsulation
 	 * ----------------
 	 * 	-> Binding methods and class properties together
 	 * 
@@ -28,6 +30,19 @@ public class Notes {
 	 *  
 	 *  Note: package keyword must be the first statement 
 	 *        in a java class
+	 *        
+	 *        
+	 *        
+	 *        
+	 *        
+	 *   com.cts.employee.model -> POJO class/bean class
+	 *   com.cts.employee.dao -> database logic classes
+	 *   com.cts.employee.service -> Java logic classes
+	 *   com.cts.employee.controller -> invokes other classes
+	 *   com.cts.employee.utils -> any our own utility
+	 *   						classes which should be 
+	 *                          re-usable to all the
+	 *                          classes in application
 	 *        
 	 *  
 	 * 
