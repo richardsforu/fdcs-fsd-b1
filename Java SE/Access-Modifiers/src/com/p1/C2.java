@@ -6,7 +6,7 @@ public class C2 {
 		
 		C1 c1=new C1();
 		c1.c1ProtectedMethod();
-		C1.test();
+		//C1.test();
 		
 		
 	}
