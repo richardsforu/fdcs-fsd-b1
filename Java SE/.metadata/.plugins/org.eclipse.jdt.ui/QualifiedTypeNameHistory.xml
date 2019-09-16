@@ -6,11 +6,14 @@
 <fullyQualifiedTypeName name="com.MethodDemo"/>
 <fullyQualifiedTypeName name="com.CallByRef"/>
 <fullyQualifiedTypeName name="com.Sample"/>
-<fullyQualifiedTypeName name="com.Employee"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.Teacher"/>
-<fullyQualifiedTypeName name="com.C1"/>
 <fullyQualifiedTypeName name="com.C3"/>
-<fullyQualifiedTypeName name="com.Student"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.C1"/>
+<fullyQualifiedTypeName name="com.p1.C2"/>
+<fullyQualifiedTypeName name="org.C11"/>
+<fullyQualifiedTypeName name="com.p1.C1"/>
+<fullyQualifiedTypeName name="com.Employee"/>
+<fullyQualifiedTypeName name="com.Student"/>
 </qualifiedTypeNameHistroy>
