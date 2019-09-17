@@ -41,26 +41,13 @@ public class Calculate {
 	 */
 	
 	
-	
-	void f1(int x,int y) {
-		
-	}
-	
-	void f1(int x,float y) {
-		
-	}
-	
 
-	void f1(float x,int y) {
-		
-	}
 	
 	
 
 	void f1(long x) {
 		System.out.println("Long : "+x);
 	}
-	
 	
 	
 	
@@ -78,9 +65,7 @@ public class Calculate {
 	//--------------------
 	
 	
-	void f1(float x) {
-		System.out.println("Float : "+x);
-	}
+
 	
 	void f1(double x) {
 		System.out.println("Double : "+x);
@@ -101,6 +86,18 @@ public class Calculate {
 	}
 	
 	
+	void f1(int x,int y) {
+		
+	}
+	
+	void f1(int x,float y) {
+		
+	}
+	
+
+	void f1(float x,int y) {
+		
+	}
 	
 	
 	public static void main(String[] args) {
@@ -108,10 +105,22 @@ public class Calculate {
 	
 		Calculate c=new Calculate();
 		
-		c.f1("abc");
-		c.f1('F');
-		c.f1(7373);
-		c.f1(65.45f);
+	//	c.f1(100); // int
+	//	c.f1(100L); // long
+	//	c.f1((short)100); // short
+	//	c.f1((byte)100);  /// byte
+	
+		//c.f1((byte)100); 
+		
+		//c.f1(6555.76); // double
+		//c.f1(34.56f); // float
+		
+		
+		
+		
+		
+		
+		
 		
 		
 

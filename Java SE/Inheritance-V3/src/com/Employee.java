@@ -1,15 +1,13 @@
 package com;
 
-public class Employee {
+public abstract class Employee {
 
 	private int empId;
 	private String employeeType;
 	private String empName;
 	private double salary;
 
-	public void processSalary() {
-		salary = salary * 2;
-	}
+	public abstract void processSalary();
 
 	public void display() {
 		System.out.println("Employeement Type: "+employeeType);

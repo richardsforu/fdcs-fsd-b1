@@ -12,6 +12,7 @@ public class Use {
 		 *  2. action : methods
 		 */
 		
+		re.setEmployeeType("Regular");
 		re.setEmpId(10);
 		re.setEmpName("Praveen");
 		//re.setSalary(10000);
@@ -20,6 +21,7 @@ public class Use {
 		
 		ContractEmployee ce=new ContractEmployee();
 		
+		ce.setEmployeeType("Contract");
 		ce.setEmpId(11);
 		ce.setEmpName("James");
 		ce.setSalary(20000);
