@@ -15,9 +15,14 @@
 <fullyQualifiedTypeName name="org.C11"/>
 <fullyQualifiedTypeName name="com.p1.C1"/>
 <fullyQualifiedTypeName name="com.Student"/>
-<fullyQualifiedTypeName name="com.Employee"/>
-<fullyQualifiedTypeName name="com.RegularEmployee"/>
-<fullyQualifiedTypeName name="com.ContractEmployee"/>
 <fullyQualifiedTypeName name="com.Use"/>
 <fullyQualifiedTypeName name="com.Calculate"/>
+<fullyQualifiedTypeName name="com.Employee"/>
+<fullyQualifiedTypeName name="com.RegularEmployee"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="com.ContractEmployee"/>
+<fullyQualifiedTypeName name="com.Circle"/>
+<fullyQualifiedTypeName name="com.Rectangle"/>
+<fullyQualifiedTypeName name="com.RectangleV2"/>
+<fullyQualifiedTypeName name="com.Shape"/>
 </qualifiedTypeNameHistroy>

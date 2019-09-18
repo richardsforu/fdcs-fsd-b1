@@ -5,7 +5,6 @@ public class ContractEmployee extends Employee {
 	private int noOfHoursWorked;
 
 	public ContractEmployee(int noOfHoursWorked) {
-		super();
 		this.noOfHoursWorked = noOfHoursWorked;
 	}
 
