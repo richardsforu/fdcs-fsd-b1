@@ -25,4 +25,13 @@
 <fullyQualifiedTypeName name="com.Rectangle"/>
 <fullyQualifiedTypeName name="com.RectangleV2"/>
 <fullyQualifiedTypeName name="com.Shape"/>
+<fullyQualifiedTypeName name="com.CustomerOperations"/>
+<fullyQualifiedTypeName name="com.MyInter"/>
+<fullyQualifiedTypeName name="com.MyInter1"/>
+<fullyQualifiedTypeName name="com.Customer"/>
+<fullyQualifiedTypeName name="com.BankEmployee"/>
+<fullyQualifiedTypeName name="com.Bank"/>
+<fullyQualifiedTypeName name="com.Manager"/>
+<fullyQualifiedTypeName name="com.Cleark"/>
+<fullyQualifiedTypeName name="com.I3"/>
 </qualifiedTypeNameHistroy>
