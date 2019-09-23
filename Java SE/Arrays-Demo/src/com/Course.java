@@ -6,6 +6,10 @@ public class Course {
 	private String courseName;
 	private int duration;
 	private double fee;
+	private int maxCapacity;
+	private int noOfLearners;
+	
+	
 
 	public void display() {
 		System.out.println("Course Id: " + courseId);
@@ -17,13 +21,41 @@ public class Course {
 
 	
 
-	public Course(int courseId, String courseName, int duration, double fee) {
+	public Course(int courseId, String courseName, int duration, double fee,int maxCapacity,int noOfLearners ) {
 
 		this.courseId = courseId;
 		this.courseName = courseName;
 		this.duration = duration;
 		this.fee = fee;
+		this.noOfLearners=noOfLearners;
 	}
+
+	
+	
+	
+	public int getNoOfLearners() {
+		return noOfLearners;
+	}
+
+
+
+	public void setNoOfLearners(int noOfLearners) {
+		this.noOfLearners = noOfLearners;
+	}
+
+
+
+	public int getMaxCapacity() {
+		return maxCapacity;
+	}
+
+
+
+	public void setMaxCapacity(int maxCapacity) {
+		this.maxCapacity = maxCapacity;
+	}
+
+
 
 	public int getCourseId() {
 		return courseId;
