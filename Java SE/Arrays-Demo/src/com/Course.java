@@ -10,7 +10,7 @@ public class Course {
 	private int noOfLearners;
 	
 	
-
+	
 	public void display() {
 		System.out.println("Course Id: " + courseId);
 		System.out.println("Name: " + courseName);

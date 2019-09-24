@@ -18,7 +18,6 @@ public class CourseDemo {
 		
 	}
 	
-
 	public static Course[] findCourses(Course[] courselist, int duration) {
 
 		
@@ -28,7 +27,8 @@ public class CourseDemo {
 		for (int i = 0; i < courselist.length; i++) {
 			if (courselist[i].getDuration() < duration) {
 				if (courselist[i].getMaxCapacity() - courselist[i].getNoOfLearners() > 10) {
-					courses[length++] = courselist[i];
+					courses[length] = courselist[i];
+					length++;
 				}
 
 			}
