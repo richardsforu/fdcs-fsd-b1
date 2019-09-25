@@ -4,8 +4,8 @@ public class HashCodeDemo {
 
 	public static void main(String[] args) {
 
-		Employee e1 = new Employee(10, "Praveen", 10000);
-		Employee e2 = new Employee(10, "Praveen", 10000);
+		Employee e1 = new Employee(100, "Praveen", 10000);
+		Employee e2 = new Employee(100, "Praveen", 10000);
 		
 		System.out.println("Identity Code of e1: "+System.identityHashCode(e1));
 		System.out.println("Identity Code of e2: "+System.identityHashCode(e2));

@@ -1,10 +1,11 @@
 package com;
 
 import java.util.Collections;
+import java.util.Objects;
 
 public class Employee {
 
-	private int empId;
+	private int empID;
 	private String empName;
 	private double salary;
 	
@@ -15,14 +16,20 @@ public class Employee {
 	
 	public Employee(int empId, String empName, double salary) {
 		
-		this.empId = empId;
+		this.empID = empId;
 		this.empName = empName;
 		this.salary = salary;
 	}
 
 	@Override
 	public String toString() {
-		return "Employee "+empName+" with  "+empId+" drawing "+salary+" salary per PM";
+		return "Employee "+empName+" with  "+empID+" drawing "+salary+" salary per PM";
+	}
+	
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return Objects.hash(empID);
 	}
 
 	@Override
@@ -37,11 +44,11 @@ public class Employee {
 	}
 	
 	public int getEmpId() {
-		return empId;
+		return empID;
 	}
 
 	public void setEmpId(int empId) {
-		this.empId = empId;
+		this.empID = empId;
 	}
 
 	public String getEmpName() {
