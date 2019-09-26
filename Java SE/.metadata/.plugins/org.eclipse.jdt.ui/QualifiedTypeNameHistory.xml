@@ -41,4 +41,6 @@
 <fullyQualifiedTypeName name="com.Employee"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.util.Objects"/>
+<fullyQualifiedTypeName name="com.StringDemo.Student"/>
+<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
 </qualifiedTypeNameHistroy>
