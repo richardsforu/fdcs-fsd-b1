@@ -30,7 +30,6 @@
 <fullyQualifiedTypeName name="com.Cleark"/>
 <fullyQualifiedTypeName name="com.I3"/>
 <fullyQualifiedTypeName name="com.Sample"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.CourseTest"/>
 <fullyQualifiedTypeName name="com.CourseDetails"/>
 <fullyQualifiedTypeName name="com.Course"/>
@@ -47,6 +46,13 @@
 <fullyQualifiedTypeName name="java.lang.Number"/>
 <fullyQualifiedTypeName name="com.Employee"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="java.lang.Runtime"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="java.util.prefs.NodeChangeEvent"/>
+<fullyQualifiedTypeName name="com.NoSuchCityFoundException"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
