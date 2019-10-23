@@ -35,9 +35,10 @@ public class App {
 			System.out.println("3.Find");
 			System.out.println("4.Update");
 			System.out.println("5.Delete");
-			System.out.println("6.BackUp data");
-			System.out.println("7.Restore data");
-			System.out.println("8.Exit");
+			System.out.println("6.Sort Data");
+			System.out.println("7.BackUp data");
+			System.out.println("8.Restore data");
+			System.out.println("9.Exit");
 			System.out.println("Enter Choice: ");
 			int ch = sc.nextInt();
 
@@ -70,10 +71,40 @@ public class App {
 			case 5:
 				break;
 			case 6:
+				System.out.println("Menu");
+				System.out.println("1.By Id");
+				System.out.println("2.By Name");
+				System.out.println("3.By Salary");
+				System.out.println("4.By DOB");
+				System.out.println("5.By Age");
+				System.out.println("6.Back to main menu");
+				System.out.println("Enter Choice: ");
+				int ch1 = sc.nextInt();
+				switch (ch1) {
+				case 1:
+					break;
+				case 2:
+					break;
+				case 3:
+					break;
+				case 4:
+					break;
+				case 5:
+					break;
+				case 6:
+
+					break;
+				default:
+					System.out.println("Invalid Choice: ");
+				}
 				break;
 			case 7:
+
 				break;
 			case 8:
+				break;
+
+			case 9:
 				System.out.println("Thank you.Visit again");
 				System.exit(0);
 			default:
