@@ -2,6 +2,19 @@
 <html lang="en">
 <head>
     <title>Document</title>
+    <style>
+    .btn{
+        border-radius: 7px;
+        background-color:khaki;
+        color: crimson;
+        text-align: center;
+        height: 30px;
+        font-weight: bold;
+    }
+    div{
+        text-align: center;
+    }
+    </style>
 </head>
 <body>
 
@@ -13,12 +26,15 @@
     <button onclick="loadImage()">Load Image</button>
 
     <hr>
-    <div id="d2">
-
+    <div id="d2" >
+        <img src="images/img1.png" height="200" width="200">
     </div>
 
-    <button onclick="loadImage1()">Load Image1</button>
-    <button onclick="loadImage1()">Load Image1</button>
+    <div>
+            <button onclick="loadImage1('img1.png')" class="btn">Load Image1</button>
+            <button onclick="loadImage1('img2.png')" class="btn">Load Image2</button>
+    </div>
+   
 
     <script src="data2.js"></script>
     
