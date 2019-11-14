@@ -12,9 +12,27 @@
         height: 40px;
         width: 90px;
         border-radius: 8px;
-        background-color:rgb(173, 115, 115);
         font-weight: bolder;
         font-size: 15px;
+    }
+
+    .btn-primary{
+        background-color:rgb(173, 115, 115);
+    }
+    .btn-secandary{
+        background-color:rgb(98, 198, 238);
+    }
+
+    .btn-success{
+        background-color:rgb(30, 216, 101);
+    }
+
+    .btn-warning{
+        background-color:rgb(250, 168, 142);
+    }
+
+    .btn-danger{
+        background-color:rgb(248, 7, 7);
     }
 
     </style>
@@ -29,11 +47,11 @@
     </div>
 
     <div>
-        <button onmouseover="loadCars('color1')">Silver</button>
-        <button onmouseover="loadCars('color2')" >Black</button>
-        <button onmouseover="loadCars('color3')">White</button>
-        <button onmouseover="loadCars('color4')">Red</button>
-        <button onmouseover="loadCars('color5')">Blue</button>
+        <button class="btn-primary" onmouseover="loadCars('color1')">Silver</button>
+        <button class="btn-secandary" onmouseover="loadCars('color2')" >Black</button>
+        <button class="btn-success" onmouseover="loadCars('color3')">White</button>
+        <button class="btn-danger" onmouseover="loadCars('color4')">Red</button>
+        <button class="btn-warning" onmouseover="loadCars('color5')">Blue</button>
     </div>
 
     <script src='data3.js'></script>
