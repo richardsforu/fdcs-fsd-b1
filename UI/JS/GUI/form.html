@@ -5,23 +5,52 @@
     <title>Document</title>
     <style>
     
+    
 
     </style>
+
+    <script>
+        function validateForm(){
+            var fname=mf.fname.value;
+            var lname=mf.lname.value;
+
+           if(fname.length==0){
+              document.getElementById("fnameErrorMsg").innerHTML="First Name is Required"
+                return false;
+           }else{
+            document.getElementById("fnameErrorMsg").innerHTML="" 
+           }
+
+           if(lname.length==0){
+              document.getElementById("lnameErrorMsg").innerHTML="Last Name is Required"
+              return false;
+           }else{
+            document.getElementById("lnameErrorMsg").innerHTML=""
+           }
+           return true;
+
+        }
+    </script>
 </head>
 <body>
     <h1>Form Validations_</h1> <hr>
 
-    <form name="mf" action="www.abc.com">
+    <form name="mf" action="www.abc.com" autocomplete="off" onsubmit="return validateForm()">
 
         
         <div>
             <span>First Name</span>
-            <div><input type="text" name='fname'></div>
+            <div><input type="text" name='fname' id="fname" onblur="validateForm()">
+                <span id="fnameErrorMsg"></span>
+            </div>
+           
         </div>
 
         <div>
                 <span>Last Name</span>
-                <div><input type="text" name='lname'></div>
+                <div><input type="text" name='lname'  onblur="validateForm()">
+                    <span id="lnameErrorMsg"></span>
+                </div>
         </div>
 
         <div>
