@@ -5,6 +5,9 @@
     <title>Document</title>
     <style>
     
+    .error{
+        color: red;
+    }
     
 
     </style>
@@ -22,6 +25,7 @@
            }
            else{
             document.getElementById("fnameErrorMsg").innerHTML="" 
+    
            }
 
            if(lname.length==0){
@@ -33,6 +37,8 @@
            return true;
 
         }
+
+       
     </script>
 </head>
 <body>
@@ -44,7 +50,7 @@
         <div>
             <span>First Name</span>
             <div><input type="text" name='fname' id="fname" onblur="validateForm()">
-                <span id="fnameErrorMsg"></span>
+                <span id="fnameErrorMsg" class="error"></span>
             </div>
            
         </div>
@@ -52,7 +58,7 @@
         <div>
                 <span>Last Name</span>
                 <div><input type="text" name='lname'  onblur="validateForm()">
-                    <span id="lnameErrorMsg"></span>
+                    <span id="lnameErrorMsg" class="error"></span>
                 </div>
         </div>
 
