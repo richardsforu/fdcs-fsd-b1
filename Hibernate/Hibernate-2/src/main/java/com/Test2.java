@@ -1,15 +1,7 @@
 package com;
 
-import java.util.HashMap;
 
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.boot.Metadata;
-import org.hibernate.boot.MetadataSources;
-import org.hibernate.boot.registry.StandardServiceRegistry;
-import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
-import org.hibernate.cfg.Environment;
-import org.hibernate.service.ServiceRegistry;
 
 import com.cts.product.config.DBConfig;
 
