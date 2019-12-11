@@ -20,7 +20,7 @@ public class Test {
 		prod.setProdName("Book");
 		prod.setPrice(635);
 
-		// prodDao.saveProduct(prod);
+		// prodDao.saveProduct(prod);;lk
 
 		for (Product p : prodService.listAll()) {
 			System.out.println(p.getProdId());
