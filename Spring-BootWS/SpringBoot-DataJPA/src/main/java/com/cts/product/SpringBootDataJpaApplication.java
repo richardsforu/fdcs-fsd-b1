@@ -16,9 +16,9 @@ public class SpringBootDataJpaApplication {
 		ProductDao prodDao = ac.getBean(ProductDao.class);
 
 		Product prod = new Product();
-		prod.setProductId(12);
-		prod.setProductName("Book");
-		prod.setPrice(332);
+		prod.setProductId(104);
+		prod.setProductName("Sony Laptop");
+		prod.setPrice(223232);
 
 		prodDao.save(prod);
 		
